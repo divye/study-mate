@@ -5,7 +5,7 @@
 
 ## Installation & Setup
 * Move to the directory and run `npm install` to install all dependencies
-* Copy DB from `study-mate/server/db/dump.sql` directory on your local database
+* Create DB schema from `study-mate/server/db/dump.sql` directory on your local database
 * Add database credentials in file `study-mate/server/lib/util.js`
 * Create a .env file in root directory of the project
   * Add two variables in the .env file:
