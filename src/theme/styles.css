@@ -1,0 +1,35 @@
+:root {
+  --primary-bg-color: #077481;
+  --footer-bg-color: #077481;
+}
+
+body {
+  background-color: #faf8f2;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/cover.jpg");   
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer.footer {
+  margin-top: 100px;
+  width: 100%;
+  background-color: var(--footer-bg-color);
+  min-height: 200px;
+  color: #fff;
+  padding: 20px;
+}
+
+footer a {
+  color:  #fff;
+}
