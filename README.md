@@ -1,7 +1,7 @@
 # study-mate
 
 ## Clone
-* Clone this repository using `https://github.com/divye/study-mate.git`
+* Clone this repository using `git clone https://github.com/divye/study-mate.git`
 
 ## Installation & Setup
 * Move to the directory and run `npm install` to install all dependencies
